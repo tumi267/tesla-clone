@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url('./tesla-site-img/family_social.jpeg');
+    background-size: 100% 220%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+}
+p{color: rgb(75, 75, 73);}
+p:hover{
+    color:black;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(148, 146, 143);
+}
+.soical{
+    position: absolute;
+    bottom: 15%;
+    left:40%;
+}
+.icon{
+    height: 60px;
+    opacity: 0.5;
+}
+.icon:hover{
+    opacity: 1;
+}

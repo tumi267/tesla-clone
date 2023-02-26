@@ -1,0 +1,223 @@
+body{
+    margin:0%;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    margin: 0%;
+    position: relative;
+    top:12%;
+    animation: fadein 2s;
+    
+}
+h3{
+    margin: 0%;
+}
+p{
+    margin: 0%;
+}
+button{
+    margin: 0%;
+}
+:root{
+    --title0:none;
+    --title1:none;
+    --title2:none;
+    --title3:none;
+    --title4:none;
+    --title5:none;
+    --title6:none;
+    --btn0:none;
+    --btn1:none;
+    --btn2:none;
+    --btn3:none;
+    --btn4:none;
+    --btn5:none;
+    --btn6:none;
+    --background0:none;
+    --background1:none;
+    --background2:none;
+    --background3:none;
+    --background4:none;
+    --background5:none;
+}
+.banner{
+text-align: center;
+padding-top: 1%;
+color: #393c41;
+font-size: 16px;
+}
+.card{
+    background-size: 100% 100%;
+}
+.hero{
+    height: 600px;
+}
+
+#title0{
+    display: var(--title0);
+    position: relative;
+    top:12%;
+    
+}
+#title1{
+    display: var(--title1);
+    color: #fff;
+}
+#title2{
+    display: var(--title2);
+}
+#title3{
+    display: var(--title3);
+    color: #fff;
+}
+#title4{
+    display: var(--title4);
+}
+#title5{
+    display: var(--title5);
+}
+
+.btn_contain{
+    display: flex;
+    position: relative;
+    top: 70%;
+}
+#btnright0{
+    display: var(--btn0);
+  
+}
+#btnleft0{
+    display: var(--btn0);
+  
+}
+#btnright1{
+    display: var(--btn1);
+}
+#btnleft1{
+    display: var(--btn1);
+}
+#btnright2{
+    display: var(--btn2);
+}
+#btnleft2{
+    display: var(--btn2);
+}
+#btnright3{
+    display: var(--btn3);
+}
+#btnleft3{
+    display: var(--btn3); 
+}
+#btnright4{
+    display: var(--btn4);
+}
+#btnleft4{
+    display: var(--btn4);
+}
+#btnright5{
+    display: var(--btn5);
+}
+#btnleft5{
+    display: var(--btn5);
+}
+
+.btn_center{
+    position: relative;
+    top: 70%;
+    padding: 0.8% 8%;
+    background-color: rgba(23, 26, 32, 1);
+    color:#fff;
+    animation: fadein 2s;
+    border-radius: 5px;
+}
+.btn_left{
+    position: relative;
+    top: 70%;
+    padding: 0.8% 8%;
+    background-color: rgba(23, 26, 32, 0.8);
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 19px;
+    margin-right: 2rem;
+    margin-left: auto;
+    animation: btnleft 2s;
+    display: var(--title1);
+}
+
+.btn_right{
+    position: relative;
+    top: 70%;
+    padding: 0.8% 8%;
+    background-color: rgba(244, 244, 244, 0.65);
+    border-radius: 2px;
+    text-align: center;
+    margin-right: auto;
+    font-size: 19px;
+    animation: btnright 2s;
+}
+@keyframes fadein {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes btnleft {
+    0%{opacity:0; left:-100px}
+    25%{opacity: 0.5;}
+    100%{opacity:1; left:0px}
+}
+@keyframes btnright {
+    0%{opacity:0; right:-100px}
+    25%{opacity: 0.5;}
+    100%{opacity:1; right:0px}
+}
+.content{
+    height: 600px; 
+    background-image: var(--background0);
+    animation: fadein 3s;
+}
+.content1{
+    height: 600px;
+    background-image: var(--background1);
+    background-size: 100% 600px;
+    animation: fadein 3s;
+}
+.content2{
+    height: 600px;
+    background-image: var(--background2);
+    animation: fadein 3s;
+}
+.content3{
+    height: 600px;
+    background-image: var(--background3);
+    animation: fadein 3s;
+}
+.content4{
+    height: 600px;
+    background-image: var(--background4);
+    animation: fadein 3s;
+}
+.content5{
+    height: 600px;
+    background-image: var(--background5);
+    background-size: 100% 600px;
+    animation: fadein 3s;
+}
+.content6{
+    height: 600px;
+    background-image: var(--background5);
+    background-size: 100% 600px;
+    animation: fadein 3s;
+}
+.content7{
+    height: 600px;
+    background-image: var(--background5);
+    background-size: 100% 600px;
+    animation: fadein 3s;
+}
+.content8{
+    height: 600px;
+    background-image: var(--background5);
+    background-size: 100% 600px;
+    animation: fadein 3s;
+}

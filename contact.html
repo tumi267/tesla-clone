@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css"/>
+    <script src="./menu/menu.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <menu-component></menu-component>
+    <div>
+    <h1>contact us</h1>
+    <div class="contact-info">
+    <div>phone:<p>021 1234567</p> </div>
+    <div>email:<p>123@gmail.com</p> </div>
+    
+    </div>
+    <div class="soical"> 
+        <img class="icon" id="facebook" src="./tesla-site-img/icons8-facebook-48.png" alt="social"/>
+        <img class="icon" id="whatsapp" src="./tesla-site-img/icons8-whatsapp-ios-16-glyph/icons8-whatsapp-60.png" alt="social"/>
+        <img class="icon" id="instagram" src="./tesla-site-img/icons8-instagram-60.png" alt="social"/>
+    </div>
+</div>
+<script>
+    let btn=document.getElementsByClassName('icon');
+    Array.from(btn).forEach((e,i )=> {
+        btn[i].addEventListener('click',()=>{
+     
+            if(e.id=='facebook'){
+                window.location.replace("http://www.facebook.com")
+            }
+            else if(e.id=='whatsapp'){
+                window.location.href='index.html'
+            }
+            else{
+                window.location.replace("http://www.instagram.com")
+            }
+        })
+    });
+</script>
+</body>
+</html>
