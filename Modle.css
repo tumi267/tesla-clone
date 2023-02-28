@@ -407,15 +407,17 @@ margin-right: 5%;
     .safety-content-p-mobile{
         margin-left: 30%;
     }
-    .range{
-        margin-top: 50%;
-        margin-left: -10%;
+    .Performanc-text {
+        top: 80%;
     }
-
+    .Performanc-head-2 {
+        top: -40%;
+        left: 60%;
+    }
     .All-Wheel-text{margin-top: 35%;
     left: 35%;}
     .spec-icon-2-moblie{
-        width: 80%;
+        width: 100%;
         margin-left: 0%;
     }
 }
