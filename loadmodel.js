@@ -8,7 +8,6 @@ let observer = new IntersectionObserver(entries=>{
         
         entry.target.classList.toggle("show",entry.isIntersecting)
         title(entry.target.id)
-        console.log(entry.target.id)
     })
     },{threshold:0.5,
     });
@@ -60,4 +59,3 @@ let observer = new IntersectionObserver(entries=>{
       }
     r.style.setProperty(`--title${num}`, 'block');  
   }
-  

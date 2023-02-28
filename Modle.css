@@ -2,7 +2,7 @@ body{
     margin:0;
     padding: 0;
     text-align: center;
-    margin-top: -6rem;
+    /* margin-top: -6rem; */
     color: rgb(221, 230, 239);
 }
 .subheading{
@@ -32,10 +32,10 @@ body{
 }
 .dis1{
     display: var(--title0);
-    position: relative;
+
     height: 80%;
     width: 100%;
-    top:12%; 
+
     animation: fadein 3s; 
 }
 .dis2{
@@ -80,6 +80,7 @@ body{
 }
 .content0{  
     background-image: var(--background0);
+    margin-top: -6rem;
 }
 .content1{
     height: 500px;
@@ -383,16 +384,38 @@ margin-right: 5%;
 }
 @media screen and (max-width:520px) {
     .spec-icon{
-        width: 80%;
+        width: 45%;
         margin-left: 0%;
     }
     .spec-icon-2{
-    width: 80%;
-    margin-left: 4%;
+    width: 30%;
+    margin-left: 20%;
+    font-size: 15px;
+    }
+    .spec-icon-item-2 {
+     
+        font-size: 15px;
+    }
+    .safety-content-mobile{
+        display: block;
     }
     .speces-content {
         text-align: left;
        margin-left: 0%;
         width: 20rem;
+    }
+    .safety-content-p-mobile{
+        margin-left: 30%;
+    }
+    .range{
+        margin-top: 50%;
+        margin-left: -10%;
+    }
+
+    .All-Wheel-text{margin-top: 35%;
+    left: 35%;}
+    .spec-icon-2-moblie{
+        width: 80%;
+        margin-left: 0%;
     }
 }

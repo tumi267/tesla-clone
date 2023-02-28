@@ -14,11 +14,16 @@ let specs=[
     [{Onboard: 'Charger Max 11.5 kW max (48A)'}],
     [{Warranty:'Basic Vehicle - 4 years or 50,000 mi, whichever comes first Battery & Drive Unit - 8 years or 120,000 mi, whichever comes first'}]
     ]],
-    [],
-    [],
+    [[[{info:'info to be added'}]],[[{info2:'info to be added'}]]],
+    [[[{info:'info to be added'}]],[[{info2:'info to be added'}]]]
 ]
-let speclist=specs[0][0]
-let speclist2=specs[0][1]
+
+let selectedspec=document.getElementsByClassName('specbtn')
+
+for(let i=0;i<selectedspec.length;i++){
+document.querySelectorAll('.specbtn')[i].addEventListener('click',function(){    
+let speclist=specs[parseInt(this.id.slice(4,5))][0]
+let speclist2=specs[parseInt(this.id.slice(4,5))][1]
 const spec=speclist.map((e)=>{ 
         let key =Object.keys(e[0])[0]
         return `<div class='spec-content'>
@@ -35,20 +40,25 @@ const spec2=speclist2.map((e)=>{
 })
 let content= document.getElementById('speces-content0');
 let content1= document.getElementById('speces-content1');
+content.innerHTML = "";
+content1.innerHTML = "";
 spec.forEach(htmlString => {
     const div = document.createElement('div');
     div.innerHTML = htmlString;
     content.appendChild(div);
 });
 spec2.forEach(htmlString2 => {
-    const div2 = document.createElement('div2');
-    div2.innerHTML = htmlString2;
-    content1.appendChild(div2);
+    const div = document.createElement('div');
+    div.innerHTML = htmlString2;
+    content1.appendChild(div);
 });
+})
+}
+
 let order=document.getElementsByClassName('order-car')
 Array.from(order).forEach((e,i)=>{
     order[i].addEventListener("click",()=>{
-        alert('display contact/redirect to contact page')
+        window.location.replace('./contact.html')
     })
 })
 

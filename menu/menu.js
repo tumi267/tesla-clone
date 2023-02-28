@@ -14,7 +14,7 @@ class Menu extends HTMLElement {
            display: var(--toggle);
            position:fixed;
            margin-top:-25%;
-           height: 700px;
+           height: 100%;
            width:100%;
            z-index:5;
            backdrop-filter: blur(4px);
@@ -70,7 +70,7 @@ class Menu extends HTMLElement {
       }
       @media screen and (max-width:520px) {
         .menu_list_contain{
-          margin-left:55%;
+          margin-left:30%;
          
         }
         #menu_toggle{
