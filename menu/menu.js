@@ -71,7 +71,7 @@ class Menu extends HTMLElement {
       @media screen and (max-width:520px) {
         .menu_list_contain{
           margin-left:30%;
-         
+          margin-top:-35%;
         }
         #menu_toggle{
           color:antiquewhite;
