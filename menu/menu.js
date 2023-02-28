@@ -13,7 +13,7 @@ class Menu extends HTMLElement {
         .menu_list{
            display: var(--toggle);
            position:fixed;
-           margin-top:-9.8rem;
+           margin-top:-25%;
            height: 700px;
            width:100%;
            z-index:5;
@@ -23,8 +23,8 @@ class Menu extends HTMLElement {
           }
         .menu_list_contain{
             position: relative;
-            top: 8%;
-            left: 65%;
+            top: 25%;
+            margin-left: 65%;
             opacity:1;
             background-color:#f4f4f4;
             width:30%;
@@ -68,6 +68,22 @@ class Menu extends HTMLElement {
           25%{opacity: 0.5;}
           100%{opacity:1; right:0px}
       }
+      @media screen and (max-width:520px) {
+        .menu_list_contain{
+          margin-left:55%;
+         
+        }
+        #menu_toggle{
+          color:antiquewhite;
+        }
+        .menu_list{
+          margin-top:-54%;
+         }
+         menu_list_close {
+          position: relative;
+          top: 5%;
+      }
+    }
         </style>
         
         <div class="nav_header">

@@ -155,8 +155,7 @@ width: 20%;
 .spec-icon-interor{
     text-align: right;
     height: 600px;
-    position: relative;
-    left:68%;
+    margin-left: 75%;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -381,5 +380,19 @@ margin-right: 5%;
         top: -30%;
         left: 6%;
     }
-
+}
+@media screen and (max-width:520px) {
+    .spec-icon{
+        width: 80%;
+        margin-left: 0%;
+    }
+    .spec-icon-2{
+    width: 80%;
+    margin-left: 4%;
+    }
+    .speces-content {
+        text-align: left;
+       margin-left: 0%;
+        width: 20rem;
+    }
 }

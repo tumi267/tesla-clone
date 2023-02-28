@@ -60,3 +60,4 @@ let observer = new IntersectionObserver(entries=>{
       }
     r.style.setProperty(`--title${num}`, 'block');  
   }
+  
